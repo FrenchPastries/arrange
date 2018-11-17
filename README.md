@@ -4,6 +4,20 @@ Arrange is collection of utilites and middlewares to use with the French Pastrie
 
 Right now, the package contains two main functions: `jsonBody` and `jsonContentType`. The first one transforms the content of a response into a string, if it is a JSON. The second one converts the response into a response containing JSON. Because code is better than words, here's some examples.
 
+# Getting Started
+
+```bash
+# For Yarn users
+yarn add @frenchpastries/arrange
+```
+
+```bash
+# For NPM users
+npm install --save @frenchpastries/arrange
+```
+
+# Usage examples
+
 ```javascript
 const MilleFeuille = require('@frenchpastries/millefeuille')
 const { response } = require('@frenchpastries/millefeuille/response')
