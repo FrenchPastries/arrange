@@ -1,5 +1,7 @@
 # JS Stuff
 node_modules/
+/*.js
+/*.d.ts
 
 # OS Stuff
 .DS_Store
