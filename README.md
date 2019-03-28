@@ -27,12 +27,35 @@ const handler = request => {
   return response({ msg: "Friendship is Magic!" })
 }
 
-const server = MilleFeuille.create(
-  Arrange.jsonBody(
-    Arrange.jsonContentType(
+const firstServer = (
+  MilleFeuille.create(
+    Arrange.jsonBody(
+      Arrange.jsonContentType(
+        handler
+      )
+    ),
+    { port: 1000 }
+  )
+)
+
+// Could be write like this.
+const secondServer = (
+  MilleFeuille.create(
+    Arrange.jsonResponse(
+      handler
+    ),
+    { port: 2000 }
+  )
+)
+
+// You can also parse bodies.
+const thildServer = (
+  MilleFeuille.create(
+    Arrange.parseJSONBody(
       handler
     )
-  )
+  ),
+  { port: 3000 }
 )
 ```
 
@@ -75,6 +98,10 @@ The `Arrange.jsonBody(Arrange.jsonContentType(handler))` returns a new response 
 ```
 
 As you can see, you can use every middleware separately, but also combined!
+
+There’s a combined helper directly usable for you: `Arrange.jsonResponse(handler)`!
+
+There’s also a parser for JSON bodies in request. `Arrange.parseJSONBody(handler)`. It parses `body` in request as JSON and forward it to handler.
 
 # Contributing
 
