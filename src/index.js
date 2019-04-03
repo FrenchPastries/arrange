@@ -38,10 +38,14 @@ const jsonResponse = handler => (
 )
 
 const parseJSONBody = handler => request => {
-  return handler({
-    ...request,
-    body: JSON.parse(request.body),
-  })
+  if (request.body) {
+    return handler({
+      ...request,
+      body: JSON.parse(request.body),
+    })
+  } else {
+    return handler(request)
+  }
 }
 
 module.exports = {
