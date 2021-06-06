@@ -17,7 +17,7 @@
     "prepare": "yarn build"
   },
   "files": [
-    "/src"
+    "/dist"
   ],
   "dependencies": {},
   "devDependencies": {
