@@ -2,17 +2,22 @@
 # yarn lockfile v1
 
 
-"@frenchpastries/millefeuille@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@frenchpastries/millefeuille/-/millefeuille-0.2.1.tgz#4566493577128f8c321f4711fbdcc67e71ae568c"
-  integrity sha512-76MAMuV1hiHGA334NZtTAmRahgU9edHMKf9hbbGVaHNEmRERplGQtnSWMJdJXV8il2yRH4q/dBRYRrdnWgg1/Q==
+"@frenchpastries/millefeuille@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@frenchpastries/millefeuille/-/millefeuille-1.0.2.tgz#9e3bf46c3c6490c27333eb5d336491accc8fd456"
+  integrity sha512-pUAtz4Q38UfhMpgWLfuQvyWyNeuUT+Ktdkmf1KglA5ebtDcVgkOUvUC5+KRNVJPALFb4I7MI6D+0bFvQgFPrKA==
 
-prettier@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.1.tgz#76903c3f8c4449bc9ac597acefa24dc5ad4cbea6"
-  integrity sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==
+"@types/node@^17.0.14":
+  version "17.0.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.14.tgz#33b9b94f789a8fedd30a68efdbca4dbb06b61f20"
+  integrity sha512-SbjLmERksKOGzWzPNuW7fJM7fk3YXVTFiZWB/Hs99gwhk+/dnrQRPBQjPW9aO+fi1tAffi9PrwFvsmOKmDTyng==
 
-typescript@^4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.2.tgz#399ab18aac45802d6f2498de5054fcbbe716a805"
-  integrity sha512-zZ4hShnmnoVnAHpVHWpTcxdv7dWP60S2FsydQLV8V5PbS3FifjWFFRiHSWpDJahly88PRyV5teTSLoq4eG7mKw==
+prettier@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
+
+typescript@^4.5.5:
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
+  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
